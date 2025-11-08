@@ -136,12 +136,6 @@ Pick the option that matches how you run Prisma and whether you want `prisma.con
 - The project uses strict TypeScript settings (`strict: true`) and `esModuleInterop`.
 - If you change the Prisma schema, run `npx prisma generate` and appropriate migration commands.
 
-## README improvements in this update
-
-- Fixed command blocks so they are shown with proper fenced code blocks for `cmd` (Windows) and `jsonc` where appropriate.
-- Clarified the TypeScript `rootDir` issue and provided an explicit `tsconfig` snippet.
-- Reworded feature bullets for clarity.
-
 ## Try it — quick commands
 
 Install dependencies:
