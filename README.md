@@ -30,7 +30,6 @@ This repository is a scaffold for small APIs or services. It includes a simple a
 
 2. Install dependencies:
 
-	cmd
 	npm install
 
 3. Create a `.env` file in the project root (an example is below):
@@ -43,18 +42,15 @@ This repository is a scaffold for small APIs or services. It includes a simple a
 
 4. Generate Prisma client and run migrations (development):
 
-	cmd
 	npx prisma generate
 	npx prisma migrate dev --name init
 
 5. Start in development mode (uses ts-node-dev):
 
-	cmd
 	npm run dev
 
 6. Build and run production bundle:
 
-	cmd
 	npm run build
 	npm start
 
@@ -82,7 +78,6 @@ At minimum configure the following in `.env`:
 
 Common commands:
 
-	cmd
 	npx prisma generate
 	npx prisma migrate dev
 	npx prisma migrate deploy
